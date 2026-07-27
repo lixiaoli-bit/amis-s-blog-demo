@@ -19,12 +19,12 @@ export const BLOG_SLUG_KEY = process.env.BLOG_SLUG_KEY || '' // 博客 slug 加�
  * GitHub 仓库配置
  */
 export const GITHUB_CONFIG = {
-	OWNER: process.env.NEXT_PUBLIC_GITHUB_OWNER || 'AmisKwok', // GitHub 仓库所有者
-	REPO: process.env.NEXT_PUBLIC_GITHUB_REPO || '2025-blog-public', // GitHub 仓库名称
+	OWNER: process.env.NEXT_PUBLIC_GITHUB_OWNER || 'lixiaoli-bit', // GitHub 仓库所有者
+	REPO: process.env.NEXT_PUBLIC_GITHUB_REPO || 'amis-s-blog-demo', // GitHub 仓库名称
 	BRANCH: process.env.NEXT_PUBLIC_GITHUB_BRANCH || 'main', // GitHub 分支名称
-	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '2837611', // GitHub App ID
+	APP_ID: process.env.NEXT_PUBLIC_GITHUB_APP_ID || '4404194', // GitHub App ID
 	ENCRYPT_KEY: process.env.NEXT_PUBLIC_GITHUB_ENCRYPT_KEY || 'wudishiduomejimo', // 加密密钥
-	BLOGGERS_PASSWORD: process.env.NEXT_PUBLIC_BLOGGERS_PASSWORD || 'zhegeshimima', // 博主密码
+	BLOGGERS_PASSWORD: process.env.NEXT_PUBLIC_BLOGGERS_PASSWORD || '159874', // 博主密码
 } as const
 
 /**
@@ -32,6 +32,6 @@ export const GITHUB_CONFIG = {
  */
 export const LOGIN_CONFIG = {
 	// 默认登录账号密码
-	USERNAME: process.env.NEXT_PUBLIC_LOGIN_USERNAME || 'dengluzhanghao', // 登录用户名
-	PASSWORD: process.env.NEXT_PUBLIC_LOGIN_PASSWORD || 'denglumima', // 登录密码
+	USERNAME: process.env.NEXT_PUBLIC_LOGIN_USERNAME || '18435992007', // 登录用户名
+	PASSWORD: process.env.NEXT_PUBLIC_LOGIN_PASSWORD || '159874', // 登录密码
 } as const
